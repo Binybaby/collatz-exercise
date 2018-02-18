@@ -1,0 +1,12 @@
+# Biny Baby 2018.02.18
+#Collatz Conjecture
+#Week 3 Exercise
+# https://github.com/npradaschnor/52167-Programming-and-Scripting-Exercises/blob/master/collatz.py
+n = int(input("Enter Integer:"))
+while n !=1:
+  if n % 2 == 0:
+    n = n/2
+    print(n)
+  else:
+      n = (n * 3) + 1
+      print(n)
